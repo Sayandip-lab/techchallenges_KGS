@@ -3,11 +3,7 @@
 ## What is three-tier architecture?
 Three-tier architecture is a well-established software application architecture that organizes applications into three logical and physical computing tiers: the presentation tier, or user interface; the application tier, where data is processed; and the data tier, where the data associated with the application is stored and managed.
 
-## What is terraform?
-Terraform is an open-source infrastructure as code software tool created by HashiCorp. Users define and provision data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON.
 
-## Installation
-- [Terraform](https://www.terraform.io/downloads.html)
 
 ## Problem Statement
 
@@ -30,9 +26,7 @@ _Note: Keep main and variable files different for each component_
 ├── terraform.tfvars          // The file to pass the terraform variables values.
 ```
 
-### Module
 
-A module is a container for multiple resources that are used together. Modules can be used to create lightweight abstractions, so that you can describe your infrastructure in terms of its architecture, rather than directly in terms of physical objects.
 
 For the solution, we have created and used five modules:
 1. resourcegroup - creating resourcegroup
